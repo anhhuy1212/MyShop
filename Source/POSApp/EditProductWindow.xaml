@@ -1,0 +1,166 @@
+﻿<Window
+    x:Class="POSApp.EditProductWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:POSApp"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title=""
+    Width="900"
+    Height="600"
+    Loaded="Window_Loaded"
+    ResizeMode="NoResize"
+    TextElement.FontSize="13"
+    TextElement.FontWeight="Regular"
+    TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+    TextOptions.TextFormattingMode="Ideal"
+    TextOptions.TextRenderingMode="Auto"
+    WindowStartupLocation="CenterScreen"
+    mc:Ignorable="d">
+    <Grid Background="WhiteSmoke">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Border
+            Grid.Column="0"
+            Margin="5"
+            BorderBrush="Gray"
+            BorderThickness="5"
+            CornerRadius="10">
+            <StackPanel Margin="0,35,0,0" VerticalAlignment="Top">
+                <Border
+                    Width="400"
+                    Height="400"
+                    BorderBrush="Gray"
+                    BorderThickness="3"
+                    CornerRadius="0">
+                    <Border.Background>
+                        <ImageBrush
+                            x:Name="productPhoto"
+                            RenderOptions.BitmapScalingMode="HighQuality"
+                            Stretch="UniformToFill" />
+                    </Border.Background>
+                </Border>
+                <Button
+                    Width="80"
+                    Height="80"
+                    Margin="0,20,0,0"
+                    Background="{DynamicResource MaterialDesignTextFieldBoxBackground}"
+                    BorderBrush="#F36D20"
+                    Click="chooseImage_Click"
+                    FontSize="18"
+                    Foreground="YellowGreen"
+                    Style="{StaticResource MaterialDesignIconButton}"
+                    ToolTip="MaterialDesignIconButton">
+                    <materialDesign:PackIcon
+                        Width="40"
+                        Height="40"
+                        Kind="ImageEdit" />
+                </Button>
+            </StackPanel>
+        </Border>
+        <Border
+            Grid.Column="1"
+            Margin="5"
+            BorderBrush="Gray"
+            BorderThickness="5"
+            CornerRadius="10">
+            <StackPanel Margin="15,0,15,0" VerticalAlignment="Top">
+                <Border
+                    Width="100"
+                    Height="100"
+                    Margin="0,25,0,0"
+                    CornerRadius="50">
+                    <Border.Background>
+                        <ImageBrush
+                            ImageSource="/Image/myshop.jpg"
+                            RenderOptions.BitmapScalingMode="HighQuality"
+                            Stretch="UniformToFill" />
+                    </Border.Background>
+                </Border>
+                <TextBlock
+                    Margin="0,10,0,0"
+                    HorizontalAlignment="Center"
+                    FontFamily="AdihausDIN Cn"
+                    FontSize="32"
+                    FontStyle="Italic"
+                    FontWeight="SemiBold"
+                    LineHeight="55"
+                    Text="Edit PRODUCT" />
+                <TextBox
+                    Name="productNameTextbox"
+                    materialDesign:HintAssist.Hint="Tên Sản Phẩm"
+                    materialDesign:HintAssist.IsFloating="True"
+                    materialDesign:TextFieldAssist.DecorationVisibility="Collapsed"
+                    materialDesign:TextFieldAssist.HasClearButton="True"
+                    materialDesign:TextFieldAssist.HasOutlinedTextField="True"
+                    materialDesign:TextFieldAssist.TextFieldCornerRadius="4"
+                    AcceptsReturn="True"
+                    BorderThickness="0"
+                    FontSize="18" />
+
+                <TextBox
+                    Name="productPriceTextbox"
+                    Margin="0,15,0,0"
+                    materialDesign:HintAssist.Hint="Giá Cả"
+                    materialDesign:HintAssist.IsFloating="True"
+                    materialDesign:TextFieldAssist.DecorationVisibility="Collapsed"
+                    materialDesign:TextFieldAssist.HasClearButton="True"
+                    materialDesign:TextFieldAssist.HasOutlinedTextField="True"
+                    materialDesign:TextFieldAssist.TextFieldCornerRadius="4"
+                    AcceptsReturn="True"
+                    BorderThickness="0"
+                    FontSize="18"
+                    TextChanged="Price_TextChanged" />
+                <TextBox
+                    Name="productQuantityTextbox"
+                    Margin="0,15,0,0"
+                    materialDesign:HintAssist.Hint="Số Lượng"
+                    materialDesign:HintAssist.IsFloating="True"
+                    materialDesign:TextFieldAssist.DecorationVisibility="Collapsed"
+                    materialDesign:TextFieldAssist.HasClearButton="True"
+                    materialDesign:TextFieldAssist.HasOutlinedTextField="True"
+                    materialDesign:TextFieldAssist.TextFieldCornerRadius="4"
+                    AcceptsReturn="True"
+                    BorderThickness="0"
+                    FontSize="18" />
+                <ComboBox
+                    Name="productCategoryComboBox"
+                    Margin="0,15,0,0"
+                    materialDesign:HintAssist.Hint="Danh Mục Sản Phẩm"
+                    FontSize="18"
+                    Style="{StaticResource MaterialDesignFilledComboBox}">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel>
+                                <TextBlock
+                                    FontSize="16"
+                                    FontWeight="Bold"
+                                    Text="{Binding Category_Name}" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+                <Button
+                    Width="80"
+                    Height="80"
+                    Margin="0,20,0,0"
+                    Background="{DynamicResource MaterialDesignTextFieldBoxBackground}"
+                    BorderBrush="YellowGreen"
+                    Click="editButton_Click"
+                    FontSize="18"
+                    Foreground="YellowGreen"
+                    Style="{StaticResource MaterialDesignIconButton}"
+                    ToolTip="MaterialDesignIconButton">
+                    <materialDesign:PackIcon
+                        Width="40"
+                        Height="40"
+                        Kind="EventEdit" />
+                </Button>
+            </StackPanel>
+        </Border>
+
+    </Grid>
+</Window>

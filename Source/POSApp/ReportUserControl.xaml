@@ -1,0 +1,166 @@
+﻿<UserControl
+    x:Class="POSApp.ReportUserControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:POSApp"
+    xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="1080"
+    d:DesignWidth="1920"
+    TextOptions.TextFormattingMode="Ideal"
+    TextOptions.TextRenderingMode="Auto"
+    FontFamily="{DynamicResource MaterialDesignFont}"
+    Initialized="UserControl_Initialized"
+    TextElement.FontSize="14"
+    TextElement.FontWeight="Regular"
+    TextElement.Foreground="{DynamicResource MaterialDesignBody}"    
+    mc:Ignorable="d">
+    <UserControl.Resources>
+        <local:ByteArrayToImageConverter x:Key="byteArrayToImage" />
+        <local:PriceConverter x:Key="PriceConverter" />
+    </UserControl.Resources>
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition  />
+                <ColumnDefinition  />
+            </Grid.ColumnDefinitions>
+            <DockPanel Grid.Column="0" Margin="20,20,20,5" >
+                <Label                  
+                    Content="DANH SÁCH SẢN PHẨM SẮP HẾT HÀNG"
+                    HorizontalAlignment="Center"
+                    DockPanel.Dock="Top"
+                    Foreground="DarkBlue"
+                    FontSize="20"/>
+                <ListView
+                    Name="almostOverProductListView"
+                    ScrollViewer.CanContentScroll="False"
+                    ScrollViewer.VerticalScrollBarVisibility="Hidden">
+                    <ListView.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel />
+                        </ItemsPanelTemplate>
+                    </ListView.ItemsPanel>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Image
+                                    Width="110"
+                                    Height="80"
+                                    HorizontalAlignment="Left"
+                                    RenderOptions.BitmapScalingMode="HighQuality"
+                                    Source="{Binding Thumbnail, Converter={StaticResource byteArrayToImage}}"
+                                    Stretch="UniformToFill" />
+                                <StackPanel
+                                    Margin="5,0,0,0"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center">
+                                    <TextBlock FontSize="18" Text="{Binding Name}" Foreground="Black" />
+                                    <TextBlock FontSize="16" Text="{Binding Quantity}" Foreground="Gray" />
+                                </StackPanel>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </DockPanel>
+            <DockPanel Grid.Column="1" Margin="20,20,20,5">
+                <Label                    
+                    Content="DANH SÁCH 10 SẢN PHẨM BÁN CHẠY NHẤT"
+                    HorizontalAlignment="Center"
+                    DockPanel.Dock="Top"
+                    Foreground="DarkBlue"
+                    FontSize="20"/>
+                <ListView
+                    Name="bestSellProductListView"
+                    ScrollViewer.CanContentScroll="False"
+                    ScrollViewer.VerticalScrollBarVisibility="Hidden">
+                    <ListView.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel />
+                        </ItemsPanelTemplate>
+                    </ListView.ItemsPanel>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Image
+                                    Width="110"
+                                    Height="80"
+                                    HorizontalAlignment="Left"
+                                    RenderOptions.BitmapScalingMode="HighQuality"
+                                    Source="{Binding Thumbnail, Converter={StaticResource byteArrayToImage}}"
+                                    Stretch="UniformToFill" />
+                                <StackPanel
+                                    Margin="5,0,0,0"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center">
+                                    <TextBlock FontSize="18" Text="{Binding Name}" Foreground="Black" />
+                                    <TextBlock FontSize="16" Text="{Binding Count}" Foreground="Gray" />
+                                </StackPanel>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </DockPanel>
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*" />
+                <ColumnDefinition  />
+                <ColumnDefinition  />
+            </Grid.ColumnDefinitions>
+            <DockPanel Grid.Column="0" Grid.ColumnSpan="1" Margin="5,20,5,5">
+                <Label
+                    HorizontalAlignment="Center"
+                    Content="THỐNG KÊ DOANH THU"
+                    DockPanel.Dock="Top"                   
+                    Foreground="DarkBlue"
+                    FontSize="20"/>
+                <Button                    
+                    Content="THỐNG KÊ"
+                    HorizontalAlignment="Center"
+                    Click="statistics_click"
+                    Foreground="White" Height="100"  Width="auto"
+                    Background="DarkSeaGreen"
+                    />
+            </DockPanel>
+            <DockPanel Grid.Column="1" Grid.ColumnSpan="1" Margin="5,20,5,5">
+                <Label
+                    HorizontalAlignment="Center"
+                    Content="THỐNG KÊ THEO LOẠI SẢN PHẨM"
+                    DockPanel.Dock="Top"                   
+                    Foreground="DarkBlue"
+                    FontSize="20"/>
+                <lvc:PieChart
+                    Name="category_product_piechart"
+                    LegendLocation="Bottom"
+                    Series="{Binding category_prodcutData}" />
+            </DockPanel>
+            <DockPanel
+                Grid.Column="2"
+                Grid.ColumnSpan="1"
+                Margin="20,20,5,5">
+                <Label
+                    HorizontalAlignment="Center"
+                    Content="THỐNG KÊ TÌNH TRANG ĐƠN HÀNG"
+                    DockPanel.Dock="Top"
+                    Foreground="DarkBlue"
+                    FontSize="20"/>
+                <lvc:PieChart
+                    Name="purchase_pie_chart"
+                    LegendLocation="Bottom"
+                    Series="{Binding purchaseData}" />
+            </DockPanel>
+        </Grid>
+    </Grid>
+</UserControl>

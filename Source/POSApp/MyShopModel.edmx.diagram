@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4790839c8fac4ae6bc144bb14b780164" Name="Diagram1">
+        <EntityTypeShape EntityType="MyShopModel.Account" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyShopModel.Category" Width="1.5" PointX="0.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyShopModel.Customer" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyShopModel.Photo" Width="1.5" PointX="5.25" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyShopModel.Product" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyShopModel.Purchase" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyShopModel.PurchaseDetail" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyShopModel.PurchaseStatusEnum" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <AssociationConnector Association="MyShopModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="MyShopModel.FK_Purchase_Customer" ManuallyRouted="true" >
+          <ConnectorPoint PointX="2.25" PointY="2.2401432291666667" />
+          <ConnectorPoint PointX="2.4975" PointY="2.2401432291666667" />
+          <ConnectorPoint PointX="2.4975" PointY="1.6495182291666666" />
+          <ConnectorPoint PointX="2.7525" PointY="1.6495182291666666" />
+          <ConnectorPoint PointX="2.7525" PointY="2.2401432291666667" />
+          <ConnectorPoint PointX="3" PointY="2.2401432291666667" />
+        </AssociationConnector>
+        <AssociationConnector Association="MyShopModel.FK_Photo_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="MyShopModel.FK_PurchaseDetail_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="MyShopModel.FK_Purchase_PurchaseStatusEnum" ManuallyRouted="false" />
+        <AssociationConnector Association="MyShopModel.FK_PurchaseDetail_Purchase" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,109 @@
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\bin\Debug\POSApp.exe.config
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\bin\Debug\POSApp.exe
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\bin\Debug\POSApp.pdb
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\bin\Debug\Aspose.Cells.dll
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\bin\Debug\EntityFramework.dll
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\bin\Debug\MaterialDesignColors.dll
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\bin\Debug\WpfAnimatedGif.dll
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\bin\Debug\XamlAnimatedGif.dll
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\bin\Debug\Aspose.Cells.xml
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\bin\Debug\EntityFramework.xml
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\bin\Debug\MaterialDesignColors.pdb
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\bin\Debug\WpfAnimatedGif.pdb
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\bin\Debug\WpfAnimatedGif.xml
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\POSApp.csprojAssemblyReference.cache
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\AddCategoryWindow.g.cs
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\AddProductWindow.g.cs
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\EditCategoryWindow.g.cs
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\EditProductWindow.g.cs
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\LoginScreen.g.cs
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\MainWindow.g.cs
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\MasterDataUserControl.g.cs
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\App.g.cs
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\POSApp_Content.g.cs
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\POSApp_MarkupCompile.cache
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\POSApp_MarkupCompile.lref
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\App.baml
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\AddCategoryWindow.baml
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\AddProductWindow.baml
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\DictionaryContainingScrollbarStyle.baml
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\EditCategoryWindow.baml
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\EditProductWindow.baml
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\LoginScreen.baml
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\MainWindow.baml
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\MasterDataUserControl.baml
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\POSApp.g.resources
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\POSApp.Properties.Resources.resources
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\POSApp.csproj.GenerateResource.cache
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\POSApp.csproj.CoreCompileInputs.cache
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\POSApp.csproj.Fody.CopyLocal.cache
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\POSApp.csproj.CopyComplete
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\POSApp.exe
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\POSApp.pdb
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\AddPurchaseWindow.g.cs
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\EditPurchaseWindow.g.cs
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\TransactionUserControl.g.cs
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\AddPurchaseWindow.baml
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\EditPurchaseWindow.baml
+D:\FIT-HCMUS\Courses\LTQLUD1\Employ\POSApp\POSApp\obj\Debug\TransactionUserControl.baml
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\AboutUsUserControl.g.cs
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\AddCategoryWindow.g.cs
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\AddProductWindow.g.cs
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\AddPurchaseWindow.g.cs
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\EditCategoryWindow.g.cs
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\EditProductWindow.g.cs
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\EditPurchaseWindow.g.cs
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\LoginScreen.g.cs
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\MainWindow.g.cs
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\MasterDataUserControl.g.cs
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\TransactionUserControl.g.cs
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\App.g.cs
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\POSApp_Content.g.cs
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\POSApp_MarkupCompile.cache
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\POSApp_MarkupCompile.lref
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\bin\Debug\POSApp.exe.config
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\bin\Debug\POSApp.exe
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\bin\Debug\POSApp.pdb
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\bin\Debug\Aspose.Cells.dll
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\bin\Debug\EntityFramework.dll
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\bin\Debug\MaterialDesignColors.dll
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\bin\Debug\WpfAnimatedGif.dll
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\bin\Debug\XamlAnimatedGif.dll
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\bin\Debug\Aspose.Cells.xml
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\bin\Debug\EntityFramework.xml
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\bin\Debug\MaterialDesignColors.pdb
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\bin\Debug\WpfAnimatedGif.pdb
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\bin\Debug\WpfAnimatedGif.xml
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\App.baml
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\AboutUsUserControl.baml
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\AddCategoryWindow.baml
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\AddProductWindow.baml
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\AddPurchaseWindow.baml
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\DictionaryContainingScrollbarStyle.baml
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\EditCategoryWindow.baml
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\EditProductWindow.baml
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\EditPurchaseWindow.baml
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\LoginScreen.baml
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\MainWindow.baml
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\MasterDataUserControl.baml
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\TransactionUserControl.baml
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\POSApp.g.resources
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\POSApp.Properties.Resources.resources
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\POSApp.csproj.GenerateResource.cache
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\POSApp.csproj.CoreCompileInputs.cache
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\POSApp.csproj.Fody.CopyLocal.cache
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\POSApp.csproj.CopyComplete
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\POSApp.exe
+C:\Users\hauzi\Downloads\Milestone 02 - Transaction Data\Source\POSApp\obj\Debug\POSApp.pdb
